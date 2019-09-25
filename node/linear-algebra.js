@@ -1,5 +1,3 @@
-let Module = require('./linear-algebra-asm.js');
-Module.TOTAL_MEMORY = 6400000000;
 let Vector = require('./vector.js');
 let memoryManager = require('./emscripten-memory-manager.js');
 let Complex = require('./complex.js');
